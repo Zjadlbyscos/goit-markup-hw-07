@@ -1,0 +1,54 @@
+/*conteners */
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-text-black);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+img {
+  display: block;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  max-width: 145px;
+}
+
+.logo--header {
+  margin-right: 93px;
+}
+
+.logo__blue {
+  color: #2196f3;
+}
+
+.logo__dark {
+  color: #212121;
+}/*# sourceMappingURL=main.min.css.map */

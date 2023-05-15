@@ -1,0 +1,56 @@
+.header {
+    border-bottom: 1px solid var(--border-color-header);
+    
+    &__box {
+        background-color: getBgColor('deafult-2');
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        vertical-align: middle;
+    }
+    &__nav {
+        // Add nav styles
+        
+        &__list {
+          // Add nav list styles
+          
+          &__item {
+            // Add nav item styles
+            
+            & .nav__underline {
+              // Add nav underline styles
+            }
+            
+            & .nav__link {
+              // Add nav link styles
+              
+              &:hover,
+              &:focus {
+                color: $active-color;
+                // Add other hover/focus styles
+              }
+            }
+          }
+        }
+      }
+      
+      &__mail,
+      &__tel {
+        // Add mail and tel styles
+        
+        .mail-header__envelope,
+        .tel-header__telephone {
+          // Add envelope and telephone icon styles
+        }
+      }
+    }
+   
+    
+    
+    
+    
+    
+    

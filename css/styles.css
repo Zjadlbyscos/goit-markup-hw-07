@@ -15,7 +15,7 @@
   --background-photo-what-we-do: #2f303acc;
   --background-fill-overlay: rgba(33, 150, 243, 0.9);
 }
-/*conteners */
+/* conteners
 * {
   margin: 0;
   box-sizing: border-box;
@@ -30,12 +30,12 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-header {
+} */
+/* header {
   border-bottom: 1px solid var(--border-color-header);
-}
+} */
 
-.box-header {
+/* .box-header {
   background-color: var(--brand-color-white);
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ header {
   padding-top: 24px;
   padding-bottom: 25px;
   vertical-align: middle;
-}
+} */
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -122,7 +122,7 @@ header {
   transform: translatey(0);
 }
 /* Fonf styles and pseudoclasses*/
-.logo {
+/* .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -130,23 +130,23 @@ header {
   letter-spacing: 0.03em;
   text-decoration: none;
   max-width: 145px;
-}
-.logo-blue {
+} */
+/* .logo-blue {
   color: var(--brand-color-one);
 }
 .logo-darc {
   color: var(--brand-color-text-black);
-}
+} */
 .logo-bright {
   color: var(--brand-color-white);
 }
-.logo-header {
+/* .logo-header {
   margin-right: 93px;
-}
-ul {
+} */
+/* ul {
   list-style-type: none;
   padding-left: 0;
-}
+} */
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -235,10 +235,10 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.section {
+/* .section {
   padding-bottom: 94px;
   padding-top: 94px;
-}
+} */
 .section.attitude {
   padding-bottom: 0px;
 }
@@ -444,9 +444,9 @@ ul {
 }
 
 /*tu style galerii portfolio*/
-img {
+/* img {
   display: block;
-}
+} */
 .project-title {
   font-size: 18px;
   line-height: 2;

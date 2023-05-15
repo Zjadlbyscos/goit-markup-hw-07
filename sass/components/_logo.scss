@@ -1,0 +1,20 @@
+ .logo {
+    font-family: $fontFamilyLogo;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  max-width: 145px;}
+    
+    .logo--header {
+        margin-right: 93px;
+    }
+    
+    .logo__blue {
+        color: getColor('font-active');
+    }
+    
+    .logo__dark {
+        color: getColor('font-1');
+    }
