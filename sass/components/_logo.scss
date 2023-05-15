@@ -5,16 +5,19 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-  max-width: 145px;}
+  max-width: 145px;
+  display:flex;
+  flex-direction: row;
+  margin-right: 93px;
     
-    .logo--header {
-        margin-right: 93px;
-    }
-    
-    .logo__blue {
+&__blue {
         color: getColor('font-active');
     }
     
-    .logo__dark {
+&__dark {
         color: getColor('font-1');
     }
+&__bright{
+    color: getColor('font-2')
+}
+}

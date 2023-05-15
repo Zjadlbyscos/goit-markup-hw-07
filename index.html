@@ -25,7 +25,7 @@
     <header class="header">
       <div class="container">
         <div class="header__box">
-          <a class="header__logo logo logo--header" href="./index.html">
+          <a class="logo" href="./index.html">
             <span class="logo__blue">Web</span>
             <span class="logo__dark">Studio</span>
           </a>
@@ -37,21 +37,23 @@
                 </div>
               </li>
               <li class="nav__item">
-                <div><a class="nav__link" href="portfolio.html">Portfolio</a></div>
+                <div>
+                  <a class="nav__link" href="portfolio.html">Portfolio</a>
+                </div>
               </li>
               <li class="nav__item">
                 <div><a class="nav__link" href="#">Kontakt</a></div>
               </li>
             </ul>
           </nav>
-          <a class="header__mail mail-header" href="mailto:info@devstudio.com">
-            <svg class="mail-header__envelope" width="16" height="12">
+          <a class="header__mail" href="mailto:info@devstudio.com">
+            <svg class="header__envelope" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com
           </a>
-          <a class="header__tel tel-header" href="tel:+48111111111">
-            <svg class="tel-header__telephone" width="10" height="16">
+          <a class="header__tel" href="tel:+48111111111">
+            <svg class="header__telephone" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +48 111 111 111
@@ -61,13 +63,13 @@
     </header>
     <main>
       <section class="hero">
-        <div class="box-slogan">
+        <div class="hero__slogan">
           <div class="container">
-            <div class="flex-slogan">
+            <div class="hero__flex-slogan">
               <h1 class="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
               <button
                 data-modal-open
-                class="button order-service"
+                class="button button__order-service"
                 type="button"
               >
                 Zamów usługe
@@ -80,51 +82,51 @@
       <!--Nasze atuty-->
       <section class="section attitude">
         <div class="container">
-          <ul class="box-attitude">
+          <ul class="attitude__box">
             <li>
-              <div class="attitude-image">
+              <div class="attitude__image">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <p class="atuty-title">LOREM IPSUM</p>
-              <p class="atuty-content">
+              <p class="attitude__image--title">LOREM IPSUM</p>
+              <p class="attitude__image--content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="attitude-image">
+              <div class="attitude__image">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <p class="atuty-title">LOREM IPSUM</p>
-              <p class="atuty-content">
+              <p class="attitude__image--title">LOREM IPSUM</p>
+              <p class="attitude__image--content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="attitude-image">
+              <div class="attitude__image">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <p class="atuty-title">LOREM IPSUM</p>
-              <p class="atuty-content">
+              <p class="attitude__image--title">LOREM IPSUM</p>
+              <p class="attitude__image--content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="attitude-image">
+              <div class="attitude__image">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <p class="atuty-title">LOREM IPSUM</p>
-              <p class="atuty-content">
+              <p class="attitude__image--title">LOREM IPSUM</p>
+              <p class="attitude__image--content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -136,10 +138,10 @@
       <!--Czym się zajmujemy-->
       <section class="section">
         <div class="container">
-          <section class="section-what-we-do">
-            <h2 class="section-title">Czym sie zajmujemy</h2>
-            <ul class="box-what-we-do">
-              <li class="what-we-do-item">
+          <section class="whatwedo">
+            <h2 class="whatwedo__title">Czym sie zajmujemy</h2>
+            <ul class="whatwedo__box">
+              <li class="whatwedo__item">
                 <a href="#"
                   ><img
                     src="images/what_we_do/what_we_do1.jpg"
@@ -147,9 +149,9 @@
                     width="370"
                     height="294"
                 /></a>
-                <span class="what-we-do-photo-text">aplikacje komputerowe</span>
+                <span class="whatwedo__text">aplikacje komputerowe</span>
               </li>
-              <li class="what-we-do-item">
+              <li class="whatwedo__item">
                 <a href="#"
                   ><img
                     src="images/what_we_do/what_we_do2.jpg"
@@ -157,9 +159,9 @@
                     width="370"
                     height="294"
                 /></a>
-                <span class="what-we-do-photo-text">aplikacje mobilne</span>
+                <span class="whatwedo__text">aplikacje mobilne</span>
               </li>
-              <li class="what-we-do-item">
+              <li class="whatwedo__item">
                 <a href="#"
                   ><img
                     src="images/what_we_do/what_we_do3.jpg"
@@ -167,7 +169,7 @@
                     width="370"
                     height="294"
                 /></a>
-                <span class="what-we-do-photo-text">rozwiązania graficzne</span>
+                <span class="whatwedo__text">rozwiązania graficzne</span>
               </li>
             </ul>
           </section>
@@ -176,19 +178,19 @@
       <!---Nasz zespół-->
       <section class="section team">
         <div class="container">
-          <div class="section-team">
+          <div class="team__box">
             <h2 class="section-title">Nasz zespół</h2>
-            <ul class="gallery-our-team">
-              <li class="frame-team">
+            <ul class="team__gallery">
+              <li class="team__frame">
                 <img
                   src="images/our_team/product_designer.jpg"
                   alt="Portret specialisty produkt designer"
                   width="270"
                   height="260"
                 />
-                <h4 class="team-name">John Doe</h4>
-                <p class="team-function">Product Designer</p>
-                <ul class="social-links">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__function">Product Designer</p>
+                <ul class="social">
                   <li class="elipse footer" href="#" target="_blank">
                     <svg class="social-icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -211,16 +213,16 @@
                   </li>
                 </ul>
               </li>
-              <li class="frame-team">
+              <li class="team__frame">
                 <img
                   src="images/our_team/frontend_developer.jpg"
                   alt="Portret specialisty FrontendDeveloper"
                   width="270"
                   height="260"
                 />
-                <h4 class="team-name">John Doe</h4>
-                <p class="team-function">Frontend Developer</p>
-                <ul class="social-links">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__function">Frontend Developer</p>
+                <ul class="social">
                   <li class="elipse" href="#" target="_blank">
                     <svg class="social-icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -243,16 +245,16 @@
                   </li>
                 </ul>
               </li>
-              <li class="frame-team">
+              <li class="team__frame">
                 <img
                   src="images/our_team/marketing.jpg"
                   alt="Portret specialisty Menager"
                   width="270"
                   height="260"
                 />
-                <h4 class="team-name">John Doe</h4>
-                <p class="team-function">Marketing</p>
-                <ul class="social-links">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__function">Marketing</p>
+                <ul class="social">
                   <li class="elipse" href="#" target="_blank">
                     <svg class="social-icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -275,16 +277,16 @@
                   </li>
                 </ul>
               </li>
-              <li class="frame-team">
+              <li class="team__frame">
                 <img
                   src="images/our_team/ui_designer.jpg"
                   alt="Portret specialisty UI Designer"
                   width="270"
                   height="260"
                 />
-                <h4 class="team-name">John Doe</h4>
-                <p class="team-function">UI Designer</p>
-                <ul class="social-links">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__function">UI Designer</p>
+                <ul class="social">
                   <li class="elipse" href="#" target="_blank">
                     <svg class="social-icon" width="20px" height="20px">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -313,36 +315,36 @@
       </section>
       <!--Nasi Klienci-->
       <section class="section">
-        <div class="container our-custommers">
+        <div class="container custommers">
           <h2 class="section-title">Nasi klienci</h2>
-          <ul class="custommer-logo-gallery">
-            <li class="box-custommers">
-              <svg width="106px" height="60.4px" class="custommer-logo">
+          <ul class="custommers__gallery">
+            <li class="custommers__box">
+              <svg width="106px" height="60.4px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo"></use>
               </svg>
             </li>
-            <li class="box-custommers">
-              <svg width="106px" height="60.4px" class="custommer-logo">
+            <li class="custommers__box">
+              <svg width="106px" height="60.4px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo-1"></use>
               </svg>
             </li>
-            <li class="box-custommers">
-              <svg width="106px" height="60px" class="custommer-logo">
+            <li class="custommers__box">
+              <svg width="106px" height="60px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo-2"></use>
               </svg>
             </li>
-            <li class="box-custommers">
-              <svg width="106px" height="60px" class="custommer-logo">
+            <li class="custommers__box">
+              <svg width="106px" height="60px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo-3"></use>
               </svg>
             </li>
-            <li class="box-custommers">
-              <svg width="106px" height="60px" class="custommer-logo">
+            <li class="custommers__box">
+              <svg width="106px" height="60px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo-4"></use>
               </svg>
             </li>
-            <li class="box-custommers">
-              <svg width="106px" height="60px" class="custommer-logo">
+            <li class="custommers__box">
+              <svg width="106px" height="60px" class="custommers__box-logo">
                 <use href="./images/icons.svg#icon-Logo-5"></use>
               </svg>
             </li>
@@ -352,15 +354,15 @@
 
       <!-- Tu Jesr Footer-->
     </main>
-    <footer>
-      <div class="container footer-container">
-        <div class="box-footer">
-          <a class="logo logo-footer" href="./index.htmll"
-            ><span class="logo-blue">Web</span
-            ><span class="logo-bright">Studio</span></a
+    <footer class="section footer">
+      <div class="container">
+        <div class="footer__box-address">
+          <a class="logo footer__logo" href="./index.htmll"
+            ><span class="logo__blue">Web</span
+            ><span class="logo__bright">Studio</span></a
           >
 
-          <address class="box-address">
+          <address class="address">
             <span class="address-footer">
               m. Warszawa, Aleje Jerozolimskie 21</span
             >
@@ -396,7 +398,7 @@
             </li>
           </ul>
         </div>
-        <div class="box-newsletter">
+        <div class="newslette">
           <p class="join-us">Zapisz się do newslettera</p>
           <form name="subscribe-form" class="subscribe-form" autocomplete="off">
             <label for="subscribe-email-form ">
